@@ -1,0 +1,30 @@
+# Planning document (kept local, not part of the repository)
+PHASE_1_PLAN.md
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# Datasets and models (never commit)
+datasets/*
+!datasets/README.md
+models/*
+!models/README.md
+
+# Results (keep folder only)
+results/*
+!results/.gitkeep
+
+# RTL simulation artifacts
+*.vvp
+*.vcd
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
